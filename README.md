@@ -1,6 +1,6 @@
 **[Made by Vianam92](https://github.com/Vianam92)** 🤖️
 
-- Exercise URL: [GitHub o Trato](vianam92.github.io/js-api-github//)
+- Exercise URL: [GitHub o Trato](vianam92.github.io/js-api-github/)
 
 ---
 # GitHub o trato
