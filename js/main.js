@@ -24,13 +24,17 @@ const handlerClick = (eve) => {
 const paintResultList = () => {
   const ulElement = document.querySelector(".js-ul");
   ulElement.textContent = "";
-  const search = users.name.split(" ");
-  const searchLength = search[0].split("");
-  for (let i = 0; i < searchLength.length; i++) {
-    const createLi = document.createElement("li");
-    createLi.className = "list";
-    createLi.textContent += searchLength[i].toUpperCase();
-    ulElement.appendChild(createLi);
+  if (users.name === null) {
+    document.querySelector(".js-text").innerHTML = "Not found";
+  } else {
+    const search = users.name.split(" ");
+    const searchLength = search[0].split("");
+    for (let i = 0; i < searchLength.length; i++) {
+      const createLi = document.createElement("li");
+      createLi.className = "list";
+      createLi.textContent += searchLength[i].toUpperCase();
+      ulElement.appendChild(createLi);
+    }
   }
 };
 
