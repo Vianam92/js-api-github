@@ -1,3 +1,8 @@
+**[Made by Vianam92](https://github.com/Vianam92)** 🤖️
+
+- Exercise URL: [GitHub o Trato](vianam92.github.io/js-api-github//)
+
+---
 # GitHub o trato
 
 Nos piden una pequeña web app que consiste en presentar en pantalla el nombre público real de una usuaria de GitHub.
